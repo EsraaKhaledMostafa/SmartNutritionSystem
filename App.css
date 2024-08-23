@@ -164,3 +164,81 @@ html, body {
 .nutrition-form button:hover {
   background-color: #68d7db;
 }
+
+
+/* Display Diet Plan Formatting */
+.diet-plan-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+.plan-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+
+/*Health Condition CheckBoxes Formatting*/
+/* General form styles */
+form {
+  font-family: Arial, sans-serif; /* Apply a consistent font */
+  font-size: 16px; /* Set a standard font size */
+  line-height: 1.5; /* Improve readability */
+  margin: 20px; /* Add some margin around the form */
+}
+
+/* Styling for labels */
+form label {
+  display: block; /* Make each label occupy its own line */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make label text bold */
+  font-size: 16px; /* Match font size with other labels */
+}
+
+/* Styling for form inputs */
+form input[type="text"],
+form input[type="number"],
+form select,
+form textarea {
+  width: 100%; /* Make inputs and textareas fill their container */
+  padding: 8px; /* Add padding for a better look */
+  margin-bottom: 15px; /* Space between fields */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Styling for checkboxes within the fieldset */
+.fieldset-container {
+  margin-bottom: 15px; /* Space between fieldset and next element */
+  padding: 10px; /* Add padding inside the fieldset */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.fieldset-container legend {
+  font-size: 16px; /* Match font size with other labels */
+  font-weight: bold; /* Make legend text bold */
+}
+
+.fieldset-container label {
+  display: flex;
+  align-items: center;
+  font-size: 16px; /* Match font size with other labels */
+  margin-bottom: 10px; /* Space between each checkbox label */
+}
+
+.fieldset-container input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and label text */
+}
+
+
